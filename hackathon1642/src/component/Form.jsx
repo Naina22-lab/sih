@@ -88,7 +88,7 @@ const App = () => {
         </Form.Item>
         <Form.Item
           label="Email"
-          name="InputNumber"
+          name="email"
           rules={[
             {
               required: true,
@@ -96,11 +96,11 @@ const App = () => {
             },
           ]}
         >
-          <InputNumber style={styles.input} />
+          <Input style={styles.input} />
         </Form.Item>
         <Form.Item
           label="Password"
-          name="InputNumber"
+          name="password"
           rules={[
             {
               required: true,
@@ -108,12 +108,12 @@ const App = () => {
             },
           ]}
         >
-          <InputNumber style={styles.input} />
+          <Input style={styles.input} />
         </Form.Item>
 
         <Form.Item
           label="Confirm Password"
-          name="InputNumber"
+          name=" confirm password"
           rules={[
             {
               required: true,
@@ -121,7 +121,7 @@ const App = () => {
             },
           ]}
         >
-          <InputNumber style={styles.input} />
+          <Input style={styles.input} />
         </Form.Item>
         
         <Form.Item

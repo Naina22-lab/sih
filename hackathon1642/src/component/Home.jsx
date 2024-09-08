@@ -147,7 +147,7 @@ const Home = () => {
             marginBottom: "10px",
           }}
         >
-          Process of Startup India Portal Registration
+          Process of Startup Registration
         </h2>
         <div
           style={{
@@ -499,6 +499,7 @@ const Home = () => {
             width: "140px",
             color: "white",
           }}
+          onClick={()=>navigate('/postapproval')}
         >
           Click Here!
         </Button>

@@ -1,18 +1,11 @@
 import React, { useState } from 'react';
 import {
   Button,
-  Cascader,
-  DatePicker,
-  Form,
   Input,
-  InputNumber,
-  Mentions,
-  Select,
-  TreeSelect,
-  Segmented,
+  Form,
 } from 'antd';
 
-const { RangePicker } = DatePicker;
+// const { RangePicker } = DatePicker;
 
 const formItemLayout = {
   labelCol: {
@@ -78,7 +71,7 @@ const App = () => {
         
         <Form.Item
           label="Email"
-          name="InputNumber"
+          name="email"
           rules={[
             {
               required: true,
@@ -86,11 +79,11 @@ const App = () => {
             },
           ]}
         >
-          <InputNumber style={styles.input} />
+          <Input style={styles.input} />
         </Form.Item>
         <Form.Item
           label="Password"
-          name="InputNumber"
+          name="password"
           rules={[
             {
               required: true,
@@ -98,7 +91,7 @@ const App = () => {
             },
           ]}
         >
-          <InputNumber style={styles.input} />
+          <Input style={styles.input} />
         </Form.Item>
 
         <Form.Item
