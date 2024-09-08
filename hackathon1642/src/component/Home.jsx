@@ -93,7 +93,7 @@ const Home = () => {
           justifyContent: "center",
           alignItems: "center",
           flexDirection: "column",
-          backgroundColor: "#999999",
+          backgroundColor: "#cbd5e1",
           fontSize: "16px",
           lineHeight: "20px",
         }}
