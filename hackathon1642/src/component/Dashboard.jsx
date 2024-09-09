@@ -22,9 +22,12 @@ const Dashboard = () => {
 
   return (
    <div style={{
-    backgroundImage:`url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH2v_80ripYUoxtWEsKYtLd1YksDkS4IuRmg&s')`,
+    // backgroundImage:`url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH2v_80ripYUoxtWEsKYtLd1YksDkS4IuRmg&s')`,
     minHeight:"100vh",
     width:"100vw",
+    display:"flex",
+    alignContent:"center",
+    justifyContent:"center",
     background:"cover",
     margin:'0,0'
    }}>
