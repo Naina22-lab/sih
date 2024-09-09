@@ -50,7 +50,8 @@ const Navbar = () => {
   return (
     <div style={{display:'flex' , justifyContent:'space-between', alignItems:'center',marginTop:'14px',cursor:'pointer',marginBottom:"20px"}}>
      <div style={{marginLeft:'8px'}}>
-     <img src={logo} alt="Logo" style={styles.logo} />
+     {/* <img src={logo} alt="Logo" style={styles.logo} /> */}
+     <h2 style={{fontFamily:"Playfair display",fontSize:"30px",marginLeft:"16px",fontWeight:"bolder"}}>LEGAL LAUNCHPAD</h2>
      </div>
      <div style={{display:'flex' , justifyContent:'space-between', alignItems:'center' ,gap:'2'}}>
         <div>
