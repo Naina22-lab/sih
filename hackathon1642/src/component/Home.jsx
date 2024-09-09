@@ -109,7 +109,7 @@ const Home = () => {
           }}
         >
           <h1 style={{ fontWeight: "2000px", fontSize: "80px" }}>
-            Turn Your Idea into Reality!
+            Turn Your Idea into Reality !!
           </h1>
         </div>
         <div
